@@ -45,12 +45,12 @@
           <td><code>{{ column.data_type }}</code></td>
           <td>
             {% if column.null %}
-              <span class="glyphicon glyphicon-ok"></span>
+              <span class="glyphicon glyphicon-ok"></span> YES
             {% endif %}
           </td>
           <td>
             {% if column.primary_key %}
-              <span class="glyphicon glyphicon-ok"></span>
+              <span class="glyphicon glyphicon-ok"></span> YES
             {% endif %}
           </td>
           <td>
@@ -122,7 +122,7 @@
           </td>
           <td>
             {% if index.unique %}
-              <span class="glyphicon glyphicon-ok"></span>
+              <span class="glyphicon glyphicon-ok"></span> YES
             {% endif %}
           </td>
           <td>
